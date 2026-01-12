@@ -1,0 +1,16 @@
+{
+	"n_cut":4,
+	"fit_1":"1\/4.8 * n^(-1\/2)",
+	"fit_2":"1\/0.72 * n^(-1)",
+	"columns":[
+		"n",
+		"error_probability",
+		"fit_1_over_sqrt_n",
+		"fit_1_over_n",
+		"odd_num_prob_loss"
+	],
+	"rows_exported":23,
+	"rows_total_aligned":24,
+	"mathematica_version":"13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)",
+	"export_time_local":"2026-01-11 18:43:19"
+}
