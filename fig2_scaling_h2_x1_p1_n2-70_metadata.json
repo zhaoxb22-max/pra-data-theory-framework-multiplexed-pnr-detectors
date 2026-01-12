@@ -1,0 +1,17 @@
+{
+	"h":2,
+	"x":1,
+	"p":1,
+	"n_min":2,
+	"n_max":70,
+	"columns":[
+		"n",
+		"coherent_rel_error",
+		"coherent_asymptotic_1_over_n",
+		"cat_rel_error",
+		"cat_asymptotic_1_over_n"
+	],
+	"dropped_rows":0,
+	"mathematica_version":"13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)",
+	"export_time_local":"2026-01-11 18:05:18"
+}
