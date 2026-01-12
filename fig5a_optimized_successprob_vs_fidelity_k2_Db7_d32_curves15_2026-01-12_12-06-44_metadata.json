@@ -1,0 +1,115 @@
+{
+	"dataset_name":"optimized_successprob_vs_fidelity_k2_Db7_d32_curves15_2026-01-12_12-06-44",
+	"created_at_local":"Mon 12 Jan 2026 12:06:45",
+	"mathematica_version":"13.0.0 for Mac OS X ARM (64-bit) (December 3, 2021)",
+	"columns":{
+		"curve_id":"integer identifier of curve",
+		"n_det":"number of detection modes; 1000000 denotes infinity approximation",
+		"tau":"transmittance parameter tau",
+		"fidelity":"x-axis value",
+		"p_opt":"optimized maximal success probability (y-axis value)"
+	},
+	"global_parameters":{
+		"d":32,
+		"kvalue":2,
+		"Db":7,
+		"eta_grid":{
+			"min":2.0e-3,
+			"max":0.998,
+			"step":2.0e-3
+		},
+		"dloss":20
+	},
+	"curves":[
+		{
+			"curve_id":1,
+			"n_det":2,
+			"tau":1.0,
+			"label":"n=2, tau=1.0"
+		},
+		{
+			"curve_id":2,
+			"n_det":2,
+			"tau":0.95,
+			"label":"n=2, tau=0.95"
+		},
+		{
+			"curve_id":3,
+			"n_det":2,
+			"tau":0.7,
+			"label":"n=2, tau=0.7"
+		},
+		{
+			"curve_id":4,
+			"n_det":4,
+			"tau":1.0,
+			"label":"n=4, tau=1.0"
+		},
+		{
+			"curve_id":5,
+			"n_det":4,
+			"tau":0.95,
+			"label":"n=4, tau=0.95"
+		},
+		{
+			"curve_id":6,
+			"n_det":4,
+			"tau":0.7,
+			"label":"n=4, tau=0.7"
+		},
+		{
+			"curve_id":7,
+			"n_det":10,
+			"tau":1.0,
+			"label":"n=10, tau=1.0"
+		},
+		{
+			"curve_id":8,
+			"n_det":10,
+			"tau":0.95,
+			"label":"n=10, tau=0.95"
+		},
+		{
+			"curve_id":9,
+			"n_det":10,
+			"tau":0.7,
+			"label":"n=10, tau=0.7"
+		},
+		{
+			"curve_id":10,
+			"n_det":20,
+			"tau":1.0,
+			"label":"n=20, tau=1.0"
+		},
+		{
+			"curve_id":11,
+			"n_det":20,
+			"tau":0.95,
+			"label":"n=20, tau=0.95"
+		},
+		{
+			"curve_id":12,
+			"n_det":20,
+			"tau":0.7,
+			"label":"n=20, tau=0.7"
+		},
+		{
+			"curve_id":13,
+			"n_det":1000000,
+			"tau":1.0,
+			"label":"n=Inf, tau=1.0"
+		},
+		{
+			"curve_id":14,
+			"n_det":1000000,
+			"tau":0.95,
+			"label":"n=Inf, tau=0.95"
+		},
+		{
+			"curve_id":15,
+			"n_det":1000000,
+			"tau":0.7,
+			"label":"n=Inf, tau=0.7"
+		}
+	]
+}
